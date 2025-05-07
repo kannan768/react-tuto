@@ -1,0 +1,21 @@
+/* Nabar.css */
+.navbar {
+  background-color: #4CAF50; /* Green background */
+  padding: 10px 20px;         /* Padding around the navbar */
+  display: flex;              /* Use flexbox for layout */
+  justify-content: space-around; /* Evenly space the links */
+  align-items: center;        /* Center the items vertically */
+}
+
+.nav-link {
+  color: white;              /* White text color */
+  text-decoration: none;     /* Remove underline */
+  font-size: 18px;           /* Slightly bigger font */
+  padding: 10px 15px;        /* Padding around the links */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.nav-link:hover {
+  background-color: #45a049; /* Darker green when hovering */
+  border-radius: 5px;        /* Rounded corners on hover */
+}
