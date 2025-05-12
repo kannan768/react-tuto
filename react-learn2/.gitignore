@@ -26,3 +26,8 @@ yarn-error.log*
 .idea/
 .vscode/
 *.swp
+*.sublime-workspace
+*.sublime-project
+
+# MacOS files
+Thumbs.db
