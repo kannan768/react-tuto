@@ -16,10 +16,13 @@ export  function StateChangeExample() {
     console.log(`✅ Count changed: ${count}`);
   }, [count]);
 
+  const countChange = () => {
+    setCount(count=> count + 1);
+  }
   return (
     <div>
       <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={countChange}>Increment</button>
     </div>
   );
 }
