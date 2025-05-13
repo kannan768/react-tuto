@@ -7,6 +7,9 @@ import Parentprops from './parentprops'
 import UseMemo from './usememo'
 import Userefhook from './Userefhook'
 import Userefhook1 from './Userefhook1'
+import Fakeapicall from './Fakeapicall'
+import Toggle from './Toggle'
+import Forms from './Forms'
 const App = () => {
   return (
    <>
@@ -20,6 +23,9 @@ const App = () => {
     <UseMemo/>
     <Userefhook />
     <Userefhook1 />
+    <Fakeapicall />
+    <Toggle />
+    <Forms />
    </>
   )
 }
