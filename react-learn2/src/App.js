@@ -3,8 +3,10 @@ import UsestateHook from './UsestateHook'
 import {Useeffect,StateChangeExample, EveryRenderExample} from './useeffecthook'
 import Parent from './parent'
 import Usecallback from './Usecallback'
-import ExpensiveCalculator from './usememo'
 import Parentprops from './parentprops'
+import UseMemo from './usememo'
+import Userefhook from './Userefhook'
+import Userefhook1 from './Userefhook1'
 const App = () => {
   return (
    <>
@@ -14,8 +16,10 @@ const App = () => {
     <EveryRenderExample />
     <Parent />
     <Usecallback />
-    <ExpensiveCalculator />
     <Parentprops />
+    <UseMemo/>
+    <Userefhook />
+    <Userefhook1 />
    </>
   )
 }
