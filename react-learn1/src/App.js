@@ -7,6 +7,8 @@ import { Useref,Useref1 } from './Useref';
 import { Useeffect, StateChangeExample, EveryRenderExample } from "./Useeffect";
 import SquareCalculator from './Usermemo';
 import Parentusecallback from './Parentusecallback';
+import { Hook1 } from './Hook1';
+import { Hook2 } from './Hook2';
 const name = "kannan";
 const ownerinfo = { ownername: "kannan", ownerage: 21 };
 const fruits = ["Apple", "Banana", "Cherry", "Mango"];
@@ -50,6 +52,8 @@ export default function Parent() {
       <Useref1 />
       <SquareCalculator/>
       <Parentusecallback/>
+      <Hook1 />  
+      <Hook2 />
     </>
   );
 }
