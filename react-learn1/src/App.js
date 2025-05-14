@@ -9,6 +9,8 @@ import SquareCalculator from './Usermemo';
 import Parentusecallback from './Parentusecallback';
 import { Hook1 } from './Hook1';
 import { Hook2 } from './Hook2';
+import Hookform from './Hookform';
+import { Reactrouter } from './Reactrouter';
 const name = "kannan";
 const ownerinfo = { ownername: "kannan", ownerage: 21 };
 const fruits = ["Apple", "Banana", "Cherry", "Mango"];
@@ -50,10 +52,12 @@ export default function Parent() {
       <EveryRenderExample />
       <Useref />
       <Useref1 />
-      <SquareCalculator/>
-      <Parentusecallback/>
-      <Hook1 />  
+      <SquareCalculator />
+      <Parentusecallback />
+      <Hook1 />
       <Hook2 />
+      <Hookform />
+      <Reactrouter />
     </>
   );
 }
