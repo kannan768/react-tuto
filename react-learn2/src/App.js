@@ -10,10 +10,11 @@ import Userefhook1 from './Userefhook1'
 import Fakeapicall from './Fakeapicall'
 import Toggle from './Toggle'
 import Forms from './Forms'
+import Test from './test'
 const App = () => {
   return (
    <>
-   <UsestateHook />
+   {/* <UsestateHook />
     <Useeffect />
     <StateChangeExample />
     <EveryRenderExample />
@@ -25,7 +26,8 @@ const App = () => {
     <Userefhook1 />
     <Fakeapicall />
     <Toggle />
-    <Forms />
+    <Forms /> */}
+    <Test/>
    </>
   )
 }
