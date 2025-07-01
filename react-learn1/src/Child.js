@@ -10,7 +10,8 @@ export default function Child({ name, ownerinfo, fruits, users, alaram }) {
       </h1>
       <h1>List and keys in array</h1>
       <h1>
-        {" "}
+
+        
         <ul>
           {fruits.map((fruit, index) => (
             <li key={index}>{fruit}</li>
