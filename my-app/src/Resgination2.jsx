@@ -15,11 +15,11 @@ const Resgination2 = () => {
                 <span className="font-bold">
                   When is the resignation notification date?
                 </span>
-                <span>10-April-2025</span>
+                <span>21-April-2025</span>
                 <span className="mt-2 font-bold">
                   When is the Last working date?
                 </span>
-                <span>09-July-2025</span>
+                <span>20-July-2025</span>
               </div>
               <div className="flex flex-col mt-8">
                 <span className="font-bold ">What's the action name?</span>

@@ -5,7 +5,7 @@ const Resignation1 = () => {
   return (
     <>
       <nav>
-        <div className="flex items-center bg-gray-800  h-[90px] aboslute">
+        <div className="flex items-center bg-gray-800  h-[90px] c">
           <div>
             <IoIosArrowBack className="text-white w-[50px] h-[50px]" />
           </div>
